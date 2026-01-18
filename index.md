@@ -1,20 +1,21 @@
 <div class="hero">
-  <div class="hero-text">
+  <div>
     <h1 class="hero-title">Anusree Mondal Rakhi</h1>
-    <div class="hero-subtitle">Data Scientist | M.S. Data Science, Columbia University | ML, LLMs, RAG, AI Agents, Computer Vision</div>
+    <div class="hero-role">Data Scientist</div>
+    <div class="hero-tagline">ML | LLMs | RAG | AI Agents | CV</div>
 
     <div class="pill-row">
-      <span class="pill">U.S. Permanent Resident (No Sponsorship Needed)</span>
       <span class="pill">New York, NY</span>
+      <span class="pill">Legal Permanent Resident</span>
     </div>
 
     <div class="btn-row">
-      <a class="btn btn-primary" href="https://www.linkedin.com/in/anusreemondalrakhi/" target="_blank" rel="noopener">LinkedIn</a>
-      <a class="btn btn-ghost" href="https://github.com/AnusreeRakhi" target="_blank" rel="noopener">GitHub</a>
-      <a class="btn btn-ghost" href="/assets/Resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+      <a class="btn" href="https://www.linkedin.com/in/anusreemondalrakhi/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/AnusreeRakhi" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="/assets/Resume.pdf" target="_blank" rel="noopener">Resume</a>
     </div>
 
-    <div class="small muted">
+    <div class="contact-line">
       <a href="mailto:ar4636@columbia.edu">ar4636@columbia.edu</a>
       <span> | </span>
       <a href="tel:+16317208838">+1 (631) 720-8838</a>
@@ -27,97 +28,67 @@
 </div>
 
 ## Professional Summary
-Data Scientist with 2+ years of hands-on experience delivering ML, LLM, and Computer Vision solutions. Built scalable data pipelines on AWS, optimized model performance, and reduced risk-model uncertainty by 70%. Comfortable turning 120M+ records into shipped features while maintaining reliable production operations.
+Data Scientist and Columbia University graduate with 2 years of experience delivering end-to-end Machine Learning, Large Language Models, and Retrieval Augmented Generation solutions. Recently, I deepened my work in AI Agents and completed a Google course.
 
-## Core Strengths
+## Projects
 <div class="grid">
-  <div class="card"><div class="card-title">Machine Learning and Deep Learning</div><div class="muted small">Modeling, evaluation, deployment thinking</div></div>
-  <div class="card"><div class="card-title">NLP and Large Language Models</div><div class="muted small">RAG, embeddings, prompt design</div></div>
-  <div class="card"><div class="card-title">Computer Vision</div><div class="muted small">CNN optimization, image pipelines</div></div>
-  <div class="card"><div class="card-title">Cloud and MLOps on AWS</div><div class="muted small">S3, Redshift, SageMaker, MLflow</div></div>
-</div>
+  <div class="card">
+    <div class="card-title">Multilingual Website Categorization</div>
+    <div class="small muted">Web Scraping, Translation, LLM Evaluation</div>
+    <ul>
+      <li>Built a text-only ingestion pipeline for 10,000 URLs using BeautifulSoup batching with Selenium fallback</li>
+      <li>Benchmarked 6 translators across 35 languages and reduced processing from 4 weeks to 3 hours</li>
+      <li>Evaluated keyword outputs with synonym-aware Precision@3 and reduced run cost from $46 to $2.30 per 10,000 URLs</li>
+    </ul>
+  </div>
 
-## Education
-<div class="card">
-  <div class="card-title">Columbia University | New York, NY | Aug 2023 to Feb 2025</div>
-  <div class="small">Master of Science in Data Science</div>
-</div>
+  <div class="card">
+    <div class="card-title">Streamlit Research Assistant (RAG)</div>
+    <div class="small muted">Chunking, Embeddings, Source-Cited QA</div>
+    <ul>
+      <li>Built a Streamlit-based RAG app to answer scope, constraints, eligibility, and assumptions with citations</li>
+      <li>Improved review speed by retrieving only top evidence per query and reduced turnaround time by 84%</li>
+      <li>Strengthened a CNN model using stacked kernels, BatchNorm, Dropout, and EarlyStopping</li>
+    </ul>
+  </div>
 
-<div class="card" style="margin-top:12px;">
-  <div class="card-title">SRM Institute of Science and Technology | Tamil Nadu, India | Jul 2018 to May 2022</div>
-  <div class="small">Bachelor of Technology in Computer Science</div>
-</div>
+  <div class="card">
+    <div class="card-title">Building Energy Modeling and MLOps</div>
+    <div class="small muted">Redshift, SageMaker, MLflow, CI/CD</div>
+    <ul>
+      <li>Validated 120M+ records in Amazon Redshift and reduced inconsistencies by 34%</li>
+      <li>Productionized supervised ML models in S3 and Amazon SageMaker to support decarbonization efforts</li>
+      <li>Integrated MLflow CI/CD to automate retraining, validation, and deployment</li>
+    </ul>
+  </div>
 
-## Publications and Patents
-- Enhanced Mask-RCNN for Ship Detection and Segmentation
-- Ship Detection from Satellite Imagery using RetinaNet
-- Patent: Object Detection System for Marine Objects
-
-## Work Experience
-
-<div class="card role">
-  <div class="role-title">Columbia Climate School | Data Scientist | Sep 2024 to Dec 2024</div>
-  <ul>
-    <li>Designed a Bayesian MCMC-based data simulation pipeline (50k to 70k iterations per parameter) to achieve convergence and reduce climate risk-model uncertainty by 70%</li>
-    <li>Built technical documentation and a scalable computational framework to enable reuse across broader climate-risk applications</li>
-    <li>Improved CNN performance using efficient kernels and overfitting controls, increasing accuracy by 8% and reducing training time by about 15%</li>
-  </ul>
-</div>
-
-<div class="card role">
-  <div class="role-title">Mastercard | Data Scientist, Capstone | Sep 2024 to Dec 2024</div>
-  <ul>
-    <li>Engineered a web-scraping and ingestion pipeline for 10,000+ URLs to create a proprietary dataset for NLP models</li>
-    <li>Implemented multilingual normalization across 35 languages by benchmarking six translators and deploying the most reliable option for production</li>
-    <li>Built cost-efficient website categorization and reduced turnaround time from hours to minutes</li>
-  </ul>
-</div>
-
-<div class="card role">
-  <div class="role-title">BlocPower | Data Science Intern | May 2024 to Aug 2024</div>
-  <ul>
-    <li>Validated 120M+ records in Amazon Redshift (SQL), reducing data inconsistencies by 34%</li>
-    <li>Developed and deployed supervised ML models (S3, SageMaker) to predict building energy characteristics supporting decarbonization</li>
-    <li>Integrated MLflow into a production MLOps workflow to automate retraining and deployment, enabling assessments that helped reduce energy waste by up to 80%</li>
-  </ul>
+  <div class="card">
+    <div class="card-title">Course Assistant and Public Health Analytics</div>
+    <div class="small muted">LLM Assistant, Dashboards, Tableau</div>
+    <ul>
+      <li>Reduced Teaching Assistants workload by 50% using an LLM assistant grounded in an Excel knowledge base</li>
+      <li>Improved reliability with strict context-only prompting and an "I do not know" fallback</li>
+      <li>Analyzed 100,000 records across 30 years and presented findings through Tableau dashboards</li>
+    </ul>
+  </div>
 </div>
 
 ## Key Achievements
 <div class="metrics">
   <div class="card">
-    <div class="metric-num">70%</div>
-    <div class="metric-label">Risk-model uncertainty reduction through Bayesian MCMC optimization</div>
+    <div class="metric-num">10,000</div>
+    <div class="metric-label">URLs ingested with a robust scraping pipeline</div>
   </div>
   <div class="card">
     <div class="metric-num">35</div>
-    <div class="metric-label">Languages supported with automated multilingual normalization</div>
+    <div class="metric-label">Languages supported through translation benchmarking</div>
   </div>
   <div class="card">
-    <div class="metric-num">120M+</div>
-    <div class="metric-label">Records validated in Redshift with improved data quality</div>
-  </div>
-</div>
-
-## Technical Expertise
-<div class="grid">
-  <div class="card">
-    <div class="card-title">Machine Learning and MLOps</div>
-    <div class="small muted">scikit-learn, MLflow, GitHub Actions, deployment pipelines</div>
+    <div class="metric-num">$46 to $2.30</div>
+    <div class="metric-label">Cost reduction per 10,000 URLs for categorization runs</div>
   </div>
   <div class="card">
-    <div class="card-title">Deep Learning</div>
-    <div class="small muted">PyTorch, TensorFlow, Keras, CNN optimization</div>
+    <div class="metric-num">84%</div>
+    <div class="metric-label">Turnaround time reduction using RAG retrieval over full-document prompting</div>
   </div>
-  <div class="card">
-    <div class="card-title">NLP and LLMs</div>
-    <div class="small muted">Transformers, Hugging Face, RAG, LangChain, FAISS</div>
-  </div>
-  <div class="card">
-    <div class="card-title">Cloud and Data</div>
-    <div class="small muted">AWS (SageMaker, S3, Redshift), SQL, pandas, ETL</div>
-  </div>
-</div>
-
-## Let’s Connect
-Actively seeking full-time Data Science roles where I can apply ML, LLM, and Computer Vision expertise to solve high-impact problems.  
-Email: <a href="mailto:ar4636@columbia.edu">ar4636@columbia.edu</a>
+  <div
