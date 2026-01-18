@@ -1,0 +1,42 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header img {
+  max-width: 140px;
+  border-radius: 50%;
+}
+
+/* Remove "View the Project on GitHub" block */
+header p.view {
+  display: none;
+}
+
+/* Give the left sidebar more space so the title does not touch the main content */
+header {
+  width: 320px;
+  padding-right: 28px;
+  text-align: left;
+}
+
+/* Keep the site title on one line */
+header h1 {
+  white-space: nowrap;
+  font-size: 30px;
+}
+
+/* Let the right content start a bit further away */
+section {
+  margin-left: 360px;
+  padding-top: 10px;
+}
+
+h1, h2, h3 {
+  margin-top: 18px;
+}
+
+/* Keep job headings on one line */
+.jobline {
+  white-space: nowrap;
+}
