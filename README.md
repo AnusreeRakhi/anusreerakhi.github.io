@@ -8,10 +8,10 @@ Data Scientist and Columbia University graduate with 2 years of experience build
 **Machine Learning and Data:** NumPy, pandas, SciPy, scikit-learn  
 **Deep Learning:** PyTorch, TensorFlow, Keras  
 **NLP and Computer Vision:** spaCy, NLTK, OpenCV  
-**LLM Stack:** LangChain, Hugging Face, FAISS, Embeddings, RAG, AI Agents  
-**Cloud and MLOps:** AWS (SageMaker, S3, Redshift, MLflow), GCP, CI/CD, Automation, Retraining, Monitoring  
+**LLM and RAG:** LangChain, Hugging Face, FAISS, Embeddings, RAG, AI Agents  
+**Cloud and MLOps:** AWS (SageMaker, S3, Redshift, MLflow), GCP, CI/CD, Automation  
 **Web Scraping:** Requests, BeautifulSoup, Selenium  
-**Analytics:** Hypothesis Testing, A/B Testing, Experimental Design, Evaluation Metrics, Data Mining  
+**Analytics:** Hypothesis Testing, A/B Testing, Experimental Design, Evaluation Metrics  
 **Visualization:** Tableau, Power BI, Matplotlib, Seaborn, ggplot2  
 **Data Quality:** Validation, QA Checks  
 **Tools:** GitHub, Excel  
@@ -61,3 +61,4 @@ Relevant Coursework: Exploratory Data Analysis and Visualization, Statistics, Ma
 ### SRM Institute of Science and Technology | Chennai, India | Jul 2018 to May 2022
 Bachelor of Technology in Computer Science and Engineering  
 Relevant Coursework: Data Mining and Analysis, Database Management Systems, Design and Analysis of Algorithms  
+
