@@ -3,21 +3,22 @@
 
 @import "{{ site.theme }}";
 
-/* Remove the default left sidebar layout */
+/* Remove the default left sidebar (theme header) so the page is clean and centered */
 header { display: none; }
+
 section {
   float: none;
   width: auto;
-  margin: 0 auto;
   max-width: 980px;
+  margin: 0 auto;
   padding: 28px 18px;
 }
 
-/* Base typography */
+/* Global typography */
 body { font-size: 16px; }
-h1, h2 { letter-spacing: -0.2px; }
-h2 { margin-top: 28px; }
-p { line-height: 1.6; }
+p { line-height: 1.65; }
+h1, h2, h3 { letter-spacing: -0.2px; }
+h2 { margin-top: 26px; }
 
 /* Hero */
 .hero {
@@ -25,7 +26,7 @@ p { line-height: 1.6; }
   gap: 28px;
   align-items: center;
   justify-content: space-between;
-  padding: 18px 0 8px 0;
+  padding: 6px 0 18px 0;
 }
 
 .hero-title {
@@ -34,9 +35,16 @@ p { line-height: 1.6; }
   line-height: 1.15;
 }
 
-.hero-subtitle {
-  margin: 10px 0 14px 0;
+.hero-role {
+  margin-top: 8px;
+  font-weight: 700;
+  color: #111;
+}
+
+.hero-tagline {
+  margin-top: 10px;
   color: #555;
+  font-weight: 600;
 }
 
 .hero-photo img {
@@ -44,6 +52,7 @@ p { line-height: 1.6; }
   height: 150px;
   border-radius: 999px;
   object-fit: cover;
+  border: 1px solid #eee;
 }
 
 /* Pills */
@@ -51,11 +60,11 @@ p { line-height: 1.6; }
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 10px 0 16px 0;
+  margin: 12px 0 14px 0;
 }
 
 .pill {
-  border: 1px solid #e6e6e6;
+  border: 1px solid #e9e9e9;
   border-radius: 999px;
   padding: 6px 10px;
   font-size: 13px;
@@ -63,35 +72,37 @@ p { line-height: 1.6; }
   background: #fafafa;
 }
 
-/* Buttons */
+/* Buttons (make LinkedIn, GitHub, Resume all look the same) */
 .btn-row {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin: 10px 0 10px 0;
+  margin: 12px 0 8px 0;
 }
 
 .btn {
   display: inline-block;
   padding: 10px 12px;
-  border-radius: 10px;
+  border-radius: 12px;
   text-decoration: none;
-  font-weight: 600;
-  border: 1px solid #e6e6e6;
-}
-
-.btn-primary {
-  background: #111;
+  font-weight: 700;
+  border: 1px solid #0a66c2;
+  background: #0a66c2;
   color: #fff !important;
-  border-color: #111;
 }
 
-.btn-ghost {
-  background: #fff;
-  color: #111 !important;
+.btn:hover { opacity: 0.92; }
+
+.contact-line {
+  margin-top: 10px;
+  color: #444;
+  font-size: 14px;
 }
 
-/* Cards and grids */
+.contact-line a { text-decoration: none; }
+.contact-line a:hover { text-decoration: underline; }
+
+/* Cards */
 .grid {
   display: grid;
   gap: 12px;
@@ -106,14 +117,14 @@ p { line-height: 1.6; }
 }
 
 .card-title {
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 6px;
 }
 
 .muted { color: #666; }
 .small { font-size: 14px; }
 
-/* Metric cards */
+/* Metrics */
 .metrics {
   display: grid;
   gap: 12px;
@@ -122,31 +133,20 @@ p { line-height: 1.6; }
 
 .metric-num {
   font-size: 28px;
-  font-weight: 800;
+  font-weight: 900;
   line-height: 1.1;
 }
 
 .metric-label { margin-top: 6px; color: #555; }
 
-/* Experience */
-.role {
-  margin-top: 14px;
-}
-
-.role-title {
-  font-weight: 800;
-  margin-bottom: 6px;
-  white-space: nowrap;
-}
-
-.role ul { margin: 8px 0 0 18px; }
-.role li { margin: 6px 0; }
+/* Make role titles stay on one line on desktop */
+h3 { white-space: nowrap; }
 
 /* Mobile */
 @media (max-width: 760px) {
   .hero { flex-direction: column-reverse; align-items: flex-start; }
   .grid { grid-template-columns: 1fr; }
   .metrics { grid-template-columns: 1fr; }
-  .role-title { white-space: normal; }
+  h3 { white-space: normal; }
   .hero-title { font-size: 34px; }
 }
