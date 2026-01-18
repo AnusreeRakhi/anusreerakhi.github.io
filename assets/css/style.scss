@@ -3,40 +3,150 @@
 
 @import "{{ site.theme }}";
 
-header img {
-  max-width: 140px;
-  border-radius: 50%;
-}
-
-/* Remove "View the Project on GitHub" block */
-header p.view {
-  display: none;
-}
-
-/* Give the left sidebar more space so the title does not touch the main content */
-header {
-  width: 320px;
-  padding-right: 28px;
-  text-align: left;
-}
-
-/* Keep the site title on one line */
-header h1 {
-  white-space: nowrap;
-  font-size: 30px;
-}
-
-/* Let the right content start a bit further away */
+/* Remove the default left sidebar layout */
+header { display: none; }
 section {
-  margin-left: 360px;
-  padding-top: 10px;
+  float: none;
+  width: auto;
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 28px 18px;
 }
 
-h1, h2, h3 {
-  margin-top: 18px;
+/* Base typography */
+body { font-size: 16px; }
+h1, h2 { letter-spacing: -0.2px; }
+h2 { margin-top: 28px; }
+p { line-height: 1.6; }
+
+/* Hero */
+.hero {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0 8px 0;
 }
 
-/* Keep job headings on one line */
-.jobline {
+.hero-title {
+  margin: 0;
+  font-size: 40px;
+  line-height: 1.15;
+}
+
+.hero-subtitle {
+  margin: 10px 0 14px 0;
+  color: #555;
+}
+
+.hero-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 999px;
+  object-fit: cover;
+}
+
+/* Pills */
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0 16px 0;
+}
+
+.pill {
+  border: 1px solid #e6e6e6;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 13px;
+  color: #333;
+  background: #fafafa;
+}
+
+/* Buttons */
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid #e6e6e6;
+}
+
+.btn-primary {
+  background: #111;
+  color: #fff !important;
+  border-color: #111;
+}
+
+.btn-ghost {
+  background: #fff;
+  color: #111 !important;
+}
+
+/* Cards and grids */
+.grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.card {
+  border: 1px solid #efefef;
+  border-radius: 14px;
+  padding: 14px;
+  background: #fff;
+}
+
+.card-title {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.muted { color: #666; }
+.small { font-size: 14px; }
+
+/* Metric cards */
+.metrics {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.metric-num {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.metric-label { margin-top: 6px; color: #555; }
+
+/* Experience */
+.role {
+  margin-top: 14px;
+}
+
+.role-title {
+  font-weight: 800;
+  margin-bottom: 6px;
   white-space: nowrap;
+}
+
+.role ul { margin: 8px 0 0 18px; }
+.role li { margin: 6px 0; }
+
+/* Mobile */
+@media (max-width: 760px) {
+  .hero { flex-direction: column-reverse; align-items: flex-start; }
+  .grid { grid-template-columns: 1fr; }
+  .metrics { grid-template-columns: 1fr; }
+  .role-title { white-space: normal; }
+  .hero-title { font-size: 34px; }
 }
