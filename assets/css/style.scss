@@ -216,3 +216,8 @@ h2 { margin-top: 28px; margin-bottom: 12px; }
 .item li {
   margin: 10px 0;
 }
+
+/* Bullet marker color to match Education detail text color */
+.item ul li::marker {
+  color: var(--muted);
+}
