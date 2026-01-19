@@ -15,14 +15,14 @@ layout: default
 
       <div class="meta">
         New York, NY<br />
-        <a href="mailto:ar4636@columbia.edu">ar4636@columbia.edu</a> | <a href="tel:+16317208838">+1 (631) 720-8838</a><br />
-        <span class="btn btn-auth">Work Authorization: Legal Permanent Resident</span>
+        <a href="mailto:ar4636@columbia.edu">ar4636@columbia.edu</a> | <a href="tel:+16317208838">+1 (631) 720-8838</a>
       </div>
 
       <div class="actions">
         <a class="btn" href="https://www.linkedin.com/in/anusreemondalrakhi/" target="_blank" rel="noopener">LinkedIn</a>
         <a class="btn" href="https://github.com/AnusreeRakhi" target="_blank" rel="noopener">GitHub</a>
         <a class="btn" href="{{ '/assets/Resume.pdf' | relative_url }}" target="_blank" rel="noopener">Resume</a>
+        <span class="btn btn-auth">Work Authorization: Legal Permanent Resident</span>
       </div>
     </div>
   </div>
@@ -43,15 +43,15 @@ layout: default
 
     <div class="stat"><strong>4 Weeks to 3 Hours</strong><span>Reduced multilingual processing time through translation benchmarking and productionization</span></div>
     <div class="stat"><strong>16 to 20 Minutes</strong><span>Achieved fast categorization runtime with concurrency for 10,000 URLs</span></div>
-    <div class="stat"><strong>120M+ Records</strong><span>Validated large-scale data in Amazon Redshift and strengthened data quality</span></div>
-
-    <div class="stat"><strong>34% Improvement</strong><span>Reduced data inconsistencies through validation rules and QA checks</span></div>
     <div class="stat"><strong>84% Faster</strong><span>Cut document review turnaround time by retrieving only top evidence per query</span></div>
-    <div class="stat"><strong>80% Impact</strong><span>Enabled assessments that helped reduce energy waste by up to 80%</span></div>
+
+    <div class="stat"><strong>120M+ Records</strong><span>Validated large-scale data in Amazon Redshift and improved data quality</span></div>
+    <div class="stat"><strong>34% Improvement</strong><span>Reduced data inconsistencies through validation rules and QA checks</span></div>
+    <div class="stat"><strong>Up to 80%</strong><span>Enabled assessments that helped reduce energy waste by up to 80%</span></div>
 
     <div class="stat"><strong>50% Reduction</strong><span>Reduced Teaching Assistants workload by automating repeated Q and A with an LLM assistant</span></div>
     <div class="stat"><strong>100,000 Records</strong><span>Built Tableau dashboards across 30 years of public health data to support research insights</span></div>
-    <div class="stat"><strong>82% Accuracy</strong><span>Achieved high object detection accuracy and published results with Springer</span></div>
+    <div class="stat"><strong>8% Gain</strong><span>Improved CNN accuracy by 8% and reduced training time by about 15%</span></div>
   </div>
 </div>
 
@@ -61,65 +61,38 @@ layout: default
   <div class="grid-2">
     <div class="card">
       <div class="card-title">Machine Learning & MLOps</div>
-      <p>scikit-learn, MLflow, Apache Spark, FastAPI, GitHub Actions. Experience with regression, classification, and production deployment pipelines.</p>
+      <p>scikit-learn, MLflow, AWS SageMaker. Regression, Classification, automation, retraining, monitoring, and production workflows.</p>
     </div>
 
     <div class="card">
       <div class="card-title">Deep Learning</div>
-      <p>PyTorch, TensorFlow, Keras. CNN, RNN, LSTM, GANs, Transfer Learning, and model optimization techniques.</p>
+      <p>PyTorch, TensorFlow, Keras. CNN-based modeling, training optimization, and regularization techniques (BatchNorm, Dropout, EarlyStopping).</p>
     </div>
 
     <div class="card">
       <div class="card-title">NLP & LLMs</div>
-      <p>Transformers, GPT, BERT, Hugging Face, RAG, LangChain, FAISS. Fine-tuning workflows and prompt engineering.</p>
+      <p>LangChain, Hugging Face, FAISS, Embeddings, RAG, AI Agents. Retrieval pipelines, prompt design, and evaluation for grounded responses.</p>
     </div>
 
     <div class="card">
       <div class="card-title">Computer Vision</div>
-      <p>OpenCV, Mask R-CNN, YOLOv7. Object detection, image segmentation, and satellite imagery analysis.</p>
+      <p>OpenCV, Mask R-CNN. Object detection, image segmentation, and satellite imagery analysis.</p>
     </div>
 
     <div class="card">
       <div class="card-title">Cloud & Data</div>
-      <p>AWS (SageMaker, S3, Redshift), SQL, pandas, NumPy. Building scalable data pipelines and ETL processes.</p>
+      <p>AWS (S3, Redshift, SageMaker), GCP, SQL, pandas, NumPy. Scalable data pipelines, ETL, and large dataset processing.</p>
     </div>
 
     <div class="card">
       <div class="card-title">Analytics & Visualization</div>
-      <p>Tableau, Power BI, Matplotlib, Seaborn. Statistical inference, A/B testing, and hypothesis testing.</p>
+      <p>Tableau, Power BI, Matplotlib, Seaborn, ggplot2. Statistical Modeling, Hypothesis Testing, A and B Testing, Experimental Design.</p>
     </div>
   </div>
 </div>
 
 <div class="section">
-  <h2>Education</h2>
-
-  <div class="item">
-    <p class="item-title">Columbia University</p>
-    <div class="item-meta">New York, NY | Sep 2023 to Feb 2025</div>
-    <div class="meta">Master of Science in Data Science</div>
-    <div class="meta">Relevant Coursework: Exploratory Data Analysis and Visualization, Statistics, Machine Learning, Computer Vision, Deep Learning for NLP</div>
-  </div>
-
-  <div class="item">
-    <p class="item-title">SRM Institute of Science and Technology</p>
-    <div class="item-meta">Chennai, India | Jul 2018 to May 2022</div>
-    <div class="meta">Bachelor of Technology in Computer Science and Engineering</div>
-    <div class="meta">Relevant Coursework: Data Mining and Analysis, Database Management Systems, Design and Analysis of Algorithms</div>
-  </div>
-</div>
-
-<div class="section">
-  <h2>Publications & Patents</h2>
-  <ul>
-    <li>Enhanced Mask-RCNN for Ship Detection and Segmentation - ICUIS</li>
-    <li>Ship Detection from Satellite Imagery using RetinaNet - ICRTC</li>
-    <li>Patent: Object Detection System for Marine Objects</li>
-  </ul>
-</div>
-
-<div class="section">
-  <h2>Work Experience</h2>
+  <h2>Professional Experience</h2>
 
   <div class="item">
     <p class="item-title">Mastercard | Applied AI Scientist</p>
@@ -183,12 +156,39 @@ layout: default
 </div>
 
 <div class="section">
+  <h2>Education</h2>
+
+  <div class="item">
+    <p class="item-title">Columbia University</p>
+    <div class="item-meta">New York, NY | Sep 2023 to Feb 2025</div>
+    <div class="meta">Master of Science in Data Science</div>
+    <div class="meta">Relevant Coursework: Exploratory Data Analysis and Visualization, Statistics, Machine Learning, Computer Vision, Deep Learning for NLP</div>
+  </div>
+
+  <div class="item">
+    <p class="item-title">SRM Institute of Science and Technology</p>
+    <div class="item-meta">Chennai, India | Jul 2018 to May 2022</div>
+    <div class="meta">Bachelor of Technology in Computer Science and Engineering</div>
+    <div class="meta">Relevant Coursework: Data Mining and Analysis, Database Management Systems, Design and Analysis of Algorithms</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Publications & Patents</h2>
+  <ul>
+    <li>Enhanced Mask-RCNN for Ship Detection and Segmentation - ICUIS</li>
+    <li>Ship Detection from Satellite Imagery using RetinaNet - ICRTC</li>
+    <li>Patent: Object Detection System for Marine Objects</li>
+  </ul>
+</div>
+
+<div class="section">
   <h2>Let's Connect</h2>
   <div class="card">
     <div class="card-title">Ready to Collaborate</div>
     <p>Actively seeking full-time Data Science roles where I can apply my expertise in machine learning, NLP, LLMs, and computer vision to tackle complex business problems. With hands-on experience across the climate tech, fintech, and energy sectors, I bring both technical depth and measurable business impact.</p>
     <div class="actions" style="margin-top:14px;">
-      <a class="btn" href="mailto:ar4636@columbia.edu">Email Me</a>
+      <a class="btn" href="mailto:ar4636@columbia.edu?subject=Hello%20Anusree%20Mondal%20Rakhi">Email Me</a>
       <a class="btn" href="https://www.linkedin.com/in/anusreemondalrakhi/" target="_blank" rel="noopener">Message on LinkedIn</a>
     </div>
   </div>
