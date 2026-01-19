@@ -11,7 +11,6 @@
   --border: rgba(17, 24, 39, 0.10);
   --shadow: 0 10px 30px rgba(17, 24, 39, 0.06);
   --radius: 18px;
-  --accent: #0a66c2;
 }
 
 body {
@@ -113,6 +112,7 @@ h2 { margin-top: 28px; margin-bottom: 12px; }
   text-decoration: none;
   color: var(--text);
   font-weight: 800;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -120,10 +120,10 @@ h2 { margin-top: 28px; margin-bottom: 12px; }
   box-shadow: 0 10px 22px rgba(17, 24, 39, 0.08);
 }
 
+/* Same box style, slightly highlighted */
 .btn-auth {
-  border-color: rgba(10, 102, 194, 0.30);
-  background: rgba(10, 102, 194, 0.06);
-  color: #0a3f7a;
+  border-color: rgba(17, 24, 39, 0.18);
+  background: rgba(17, 24, 39, 0.03);
   font-weight: 900;
 }
 
@@ -180,7 +180,7 @@ h2 { margin-top: 28px; margin-bottom: 12px; }
   line-height: 1.6;
 }
 
-/* Experience items */
+/* Items */
 .item {
   border: 1px solid var(--border);
   border-radius: 14px;
