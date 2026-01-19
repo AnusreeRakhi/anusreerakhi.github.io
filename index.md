@@ -22,7 +22,7 @@ layout: default
         <a class="btn" href="https://www.linkedin.com/in/anusreemondalrakhi/" target="_blank" rel="noopener">LinkedIn</a>
         <a class="btn" href="https://github.com/AnusreeRakhi" target="_blank" rel="noopener">GitHub</a>
         <a class="btn" href="{{ '/assets/Resume.pdf' | relative_url }}" target="_blank" rel="noopener">Resume</a>
-        <span class="btn">Work Authorization: Legal Permanent Resident</span>
+        <a class="btn" href="#" onclick="return false;" aria-label="Work Authorization Legal Permanent Resident">Work Authorization: Legal Permanent Resident</a>
       </div>
     </div>
   </div>
@@ -98,9 +98,9 @@ layout: default
     <p class="item-title">Mastercard | Applied AI Scientist</p>
     <div class="item-meta">New York, NY | Sep 2024 to Dec 2024</div>
     <ul>
-<li>Delivered a Web Scraping and Text Only Ingestion Pipeline For 10,000 URLs Using BeautifulSoup Batching With Selenium Fallback</li>
-<li>Optimized Multilingual Translation By Benchmarking 6 Translators Across 35 Languages and Productionizing the Best Performing Translator, Reducing End To End Processing From 4 Weeks To 3 Hours</li>
-<li>Enabled Cost Efficient Website Categorization Using LLMs, Evaluated Keywords With Synonym Aware Precision@3 Against a Human Annotated Dataset, Lowering Run Costs From $46 To $2.30 Per 10,000 URLs and Achieving Approximately 16 To 20 Minutes Runtime With Concurrency</li>
+      <li>Delivered a Web Scraping and Text Only Ingestion Pipeline For 10,000 URLs Using BeautifulSoup Batching With Selenium Fallback</li>
+      <li>Optimized Multilingual Translation By Benchmarking 6 Translators Across 35 Languages and Productionized the Best Performing Translator, Reducing End To End Processing From 4 Weeks To 3 Hours</li>
+      <li>Enabled Cost Efficient Website Categorization Using LLMs, Evaluated Keywords With Synonym Aware Precision@3 Against a Human Annotated Dataset, Lowering Run Costs From $46 To $2.30 Per 10,000 URLs and Achieving Approximately 16 To 20 Minutes Runtime With Concurrency</li>
     </ul>
   </div>
 
@@ -108,9 +108,9 @@ layout: default
     <p class="item-title">Columbia Climate School | Data Scientist</p>
     <div class="item-meta">New York, NY | Sep 2024 to Dec 2024</div>
     <ul>
-<li>Developed a Streamlit Based RAG Application For Environmental Researchers and Climate Scientists To Ingest Multiple Articles and Reports and Answer Queries On Scope Of Work, Constraints, Eligibility, and Assumptions With Source Cited Responses</li>
-<li>Optimized Document Review By Chunking and Embedding Documents and Retrieving Only the Top Relevant Evidence Per Query, Reducing OpenAI API Token Cost Versus Sending Full Reports and Cutting Turnaround Time By 84%</li>
-<li>Optimized an Existing CNN Model By Strengthening the Convolution Operation With Stacked Kernels, BatchNorm, Dropout, and EarlyStopping, Increased Accuracy By 8% and Reduced Training Time By About 15% Without New Data Collection</li>
+      <li>Developed a Streamlit Based RAG Application For Environmental Researchers and Climate Scientists To Ingest Multiple Articles and Reports and Answer Queries On Scope Of Work, Constraints, Eligibility, and Assumptions With Source Cited Responses</li>
+      <li>Optimized Document Review By Chunking and Embedding Documents and Retrieving Only the Top Relevant Evidence Per Query, Reducing OpenAI API Token Cost Versus Sending Full Reports and Cutting Turnaround Time By 84%</li>
+      <li>Optimized an Existing CNN Model By Strengthening the Convolution Operation With Stacked Kernels, BatchNorm, Dropout, and EarlyStopping, Increased Accuracy By 8% and Reduced Training Time By About 15% Without New Data Collection</li>
     </ul>
   </div>
 
@@ -118,78 +118,12 @@ layout: default
     <p class="item-title">BlocPower | Data Scientist</p>
     <div class="item-meta">Brooklyn, NY | May 2024 to Aug 2024</div>
     <ul>
-<li>Led Data Validation On 120M+ Records In Amazon Redshift (SQL), Reduced Data Inconsistencies By 34% and Improved Data Quality</li>
-<li>Developed and Productionized Supervised ML Models (S3, Amazon SageMaker) To Predict Key Building Energy Characteristics Supporting Decarbonization Efforts</li>
-<li>Integrated Model Lifecycle Into a Production MLOps Pipeline (MLflow) With a CI and CD Workflow To Automate Retraining, Validation, and Deployment, Enabled Assessments That Helped Clients Reduce Energy Waste By Up to 80%</li>
-<li>Created Performance Monitoring Reports For Cross Functional Teams (Engineering, Ops) Providing Actionable Insights Into Critical Business Metrics</li>
+      <li>Led Data Validation On 120M+ Records In Amazon Redshift (SQL), Reduced Data Inconsistencies By 34% and Improved Data Quality</li>
+      <li>Developed and Productionized Supervised ML Models (S3, Amazon SageMaker) To Predict Key Building Energy Characteristics Supporting Decarbonization Efforts</li>
+      <li>Integrated Model Lifecycle Into a Production MLOps Pipeline (MLflow) With a CI and CD Workflow To Automate Retraining, Validation, and Deployment, Enabled Assessments That Helped Clients Reduce Energy Waste By Up to 80%</li>
+      <li>Created Performance Monitoring Reports For Cross Functional Teams (Engineering, Ops) Providing Actionable Insights Into Critical Business Metrics</li>
     </ul>
   </div>
 
   <div class="item">
-    <p class="item-title">Columbia Engineering | Machine Learning Research Assistant</p>
-    <div class="item-meta">New York, NY | Sep 2023 to Apr 2024</div>
-    <ul>
-<li>Reduced Teaching Assistants Workload By 50% In High Enrollment Courses By Answering Students Queries Through an LLM Assistant</li>
-<li>Enabled Fast, Accurate Semantic Retrieval Using a LangChain LLM Plus RAG Pipeline With Embeddings and a Vector Database Over an Excel Knowledge Base</li>
-<li>Improved Answer Reliability With Google PaLM Using a Strict Context Only Prompt and an I Do Not Know Fallback, Deployed Via Streamlit With an Admin Re Index Workflow</li>
-<li>Derived Insights From 100,000 Public Health Records Across 30 Years By Building Visualizations, Linking Demographic and Social Factors To Lifestyle Changes, and Presenting Findings Through Tableau Dashboards</li>
-    </ul>
-  </div>
-
-  <div class="item">
-    <p class="item-title">Gonit Shikkha Kendro | Data Science Instructor</p>
-    <div class="item-meta">Dhaka, Bangladesh | Jun 2022 to Aug 2023</div>
-    <ul>
-<li>Taught Data Preparation For ML, DL, and NLP Models Using Python, SQL, NumPy, Pandas, Seaborn, Scikit-learn, SpaCy, NLTK</li>
-<li>Designed and Led Workshops On Data Storytelling, Critical Thinking, and Strategy Development For Real World Data Problems</li>
-    </ul>
-  </div>
-
-  <div class="item">
-    <p class="item-title">SRM Institute of Science and Technology | Deep Learning Research Assistant</p>
-    <div class="item-meta">Chennai, India | Jun 2021 to May 2022</div>
-    <ul>
-<li>Enhanced Mask R-CNN On Satellite Imagery By Optimizing Backbone Architecture (ResNet) and Hyperparameter Tuning</li>
-<li>Achieved 82% Object Detection Accuracy and Published Results With Springer</li>
-    </ul>
-  </div>
-</div>
-
-<div class="section">
-  <h2>Education</h2>
-
-  <div class="item">
-    <p class="item-title">Columbia University</p>
-    <div class="item-meta">New York, NY | Sep 2023 to Feb 2025</div>
-    <div class="meta">Master of Science In Data Science</div>
-    <div class="meta">Relevant Coursework: Exploratory Data Analysis and Visualization, Statistics, Machine Learning, Computer Vision, Deep Learning For NLP</div>
-  </div>
-
-  <div class="item">
-    <p class="item-title">SRM Institute of Science and Technology</p>
-    <div class="item-meta">Chennai, India | Jul 2018 to May 2022</div>
-    <div class="meta">Bachelor of Technology In Computer Science and Engineering</div>
-    <div class="meta">Relevant Coursework: Data Mining and Analysis, Database Management Systems, Design and Analysis of Algorithms</div>
-  </div>
-</div>
-
-<div class="section">
-  <h2>Publications & Patents</h2>
-  <ul>
-<li>Enhanced Mask-RCNN For Ship Detection and Segmentation - ICUIS</li>
-<li>Ship Detection From Satellite Imagery Using RetinaNet - ICRTC</li>
-<li>Patent: Object Detection System For Marine Objects</li>
-  </ul>
-</div>
-
-<div class="section">
-  <h2>Let&apos;s Connect</h2>
-  <div class="card">
-    <div class="card-title">Ready to Collaborate</div>
-    <p>Actively seeking full time Data Science roles where I can apply Machine Learning, NLP, LLMs, and Computer Vision to deliver measurable business impact, I bring hands on experience across Climate Tech, FinTech, and Energy, and I enjoy partnering with cross functional teams to move from prototype to production</p>
-    <div class="actions" style="margin-top:14px;">
-      <a class="btn" href="mailto:ar4636@columbia.edu?subject=Hello%20Anusree%20Mondal%20Rakhi">Email Me</a>
-      <a class="btn" href="https://www.linkedin.com/in/anusreemondalrakhi/" target="_blank" rel="noopener">Message on LinkedIn</a>
-    </div>
-  </div>
-</div>
+    <
