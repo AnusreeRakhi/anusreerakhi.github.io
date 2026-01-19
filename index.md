@@ -5,7 +5,7 @@ layout: default
 <div class="hero">
   <div class="hero-grid">
     <div>
-      <img class="headshot" src="{{ 'Images/headshot_circle.png' | relative_url }}" alt="Headshot" />
+      <img class="headshot" src="{{ '/Images/headshot_circle.png' | relative_url }}" alt="Headshot" />
     </div>
 
     <div>
@@ -16,13 +16,13 @@ layout: default
       <div class="meta">
         New York, NY<br />
         <a href="mailto:ar4636@columbia.edu">ar4636@columbia.edu</a> | <a href="tel:+16317208838">+1 (631) 720-8838</a><br />
-        Work Authorization: Legal Permanent Resident
+        <span class="badge badge-strong">Work Authorization: Legal Permanent Resident</span>
       </div>
 
       <div class="actions">
         <a class="btn" href="https://www.linkedin.com/in/anusreemondalrakhi/" target="_blank" rel="noopener">LinkedIn</a>
         <a class="btn" href="https://github.com/AnusreeRakhi" target="_blank" rel="noopener">GitHub</a>
-        <a class="btn" href="{{ 'Resume.pdf' | relative_url }}" target="_blank" rel="noopener">Resume</a>
+        <a class="btn" href="{{ '/assets/Resume.pdf' | relative_url }}" target="_blank" rel="noopener">Resume</a>
       </div>
     </div>
   </div>
@@ -30,45 +30,88 @@ layout: default
 
 <div class="section">
   <h2>Professional Summary</h2>
-  Data Scientist and Columbia University graduate with 2 years of experience delivering end-to-end Machine Learning, Large Language Models, and Retrieval Augmented Generation solutions. Recently, I deepened my work in AI Agents through a Google course.
+  Data Scientist and Columbia University graduate with 2 years of experience delivering end-to-end machine learning (ML), large language models (LLMs), and retrieval augmented generation (RAG) solutions. Recently, I dived deeper into AI agents and completed a Google course.
 </div>
 
 <div class="section">
-  <h2>Key Highlights</h2>
+  <h2>Key Achievements</h2>
 
   <div class="grid-3">
     <div class="stat">
-      <strong>Cost Reduction</strong>
-      <span>Reduced run cost from $46 to $2.30 per 10,000 URLs</span>
+      <strong>10,000 URLs</strong>
+      <span>Built a web scraping and ingestion pipeline using BeautifulSoup with Selenium fallback</span>
     </div>
+
     <div class="stat">
-      <strong>Speed Improvement</strong>
-      <span>Reduced multilingual processing from 4 weeks to 3 hours</span>
+      <strong>35 Languages</strong>
+      <span>Benchmarked 6 translators and productionized the best-performing translator</span>
     </div>
+
     <div class="stat">
-      <strong>Data Quality</strong>
-      <span>Reduced inconsistencies by 34% across 120M+ records</span>
+      <strong>$46 to $2.30</strong>
+      <span>Reduced run cost per 10,000 URLs using synonym-aware Precision@3 evaluation</span>
+    </div>
+
+    <div class="stat">
+      <strong>4 Weeks to 3 Hours</strong>
+      <span>Reduced multilingual processing time through translation benchmarking and productionization</span>
+    </div>
+
+    <div class="stat">
+      <strong>120M+ Records</strong>
+      <span>Improved data quality by reducing inconsistencies by 34% in Amazon Redshift</span>
+    </div>
+
+    <div class="stat">
+      <strong>50% Reduction</strong>
+      <span>Reduced Teaching Assistants workload in high-enrollment courses using an LLM assistant</span>
     </div>
   </div>
 </div>
 
 <div class="section">
-  <h2>Technical Skills</h2>
+  <h2>Technical Expertise</h2>
 
-  <div class="skills">
-    <div class="skill-row"><div class="skill-label">Languages</div><div class="skill-value">Python, R, SQL</div></div>
-    <div class="skill-row"><div class="skill-label">Machine Learning and Data</div><div class="skill-value">NumPy, pandas, SciPy, scikit-learn</div></div>
-    <div class="skill-row"><div class="skill-label">Deep Learning</div><div class="skill-value">PyTorch, TensorFlow, Keras</div></div>
-    <div class="skill-row"><div class="skill-label">NLP and Computer Vision</div><div class="skill-value">spaCy, NLTK, OpenCV</div></div>
-    <div class="skill-row"><div class="skill-label">LLM Stack</div><div class="skill-value">LangChain, Hugging Face, FAISS, Embeddings, LLMs, RAG, AI Agents</div></div>
-    <div class="skill-row"><div class="skill-label">Cloud</div><div class="skill-value">AWS (SageMaker, S3, Redshift, MLflow), GCP</div></div>
-    <div class="skill-row"><div class="skill-label">MLOps</div><div class="skill-value">Automation, Retraining, Monitoring</div></div>
-    <div class="skill-row"><div class="skill-label">Web Scraping</div><div class="skill-value">requests, BeautifulSoup, Selenium</div></div>
-    <div class="skill-row"><div class="skill-label">Analytics</div><div class="skill-value">Hypothesis Testing, A/B Testing, Experimental Design, Evaluation Metrics, Data Mining</div></div>
-    <div class="skill-row"><div class="skill-label">Visualization</div><div class="skill-value">Tableau, Power BI, Matplotlib, Seaborn, ggplot2</div></div>
-    <div class="skill-row"><div class="skill-label">Data Quality</div><div class="skill-value">Validation, QA Checks</div></div>
-    <div class="skill-row"><div class="skill-label">Tools</div><div class="skill-value">GitHub, Excel</div></div>
+  <div class="grid-2">
+    <div class="card">
+      <div class="card-title">Machine Learning & MLOps</div>
+      <p>scikit-learn, MLflow, Spark, FastAPI, GitHub Actions. Expert in regression, classification, and production deployment pipelines.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Deep Learning</div>
+      <p>PyTorch, TensorFlow, Keras. Proficient in CNN, RNN, LSTM, GANs, Transfer Learning, and optimization techniques.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">NLP & LLMs</div>
+      <p>Transformers, GPT, BERT, Hugging Face, RAG, LangChain, FAISS. Fine-tuning and prompt engineering expertise.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Computer Vision</div>
+      <p>OpenCV, Mask R-CNN, YOLOv7. Object detection, image segmentation, and satellite imagery analysis.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Cloud & Data</div>
+      <p>AWS (SageMaker, S3, Redshift), SQL, Pandas, NumPy. Building scalable data pipelines and ETL processes.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Analytics & Visualization</div>
+      <p>Tableau, Power BI, Matplotlib, Seaborn. Statistical inference, A/B testing, and hypothesis testing.</p>
+    </div>
   </div>
+</div>
+
+<div class="section">
+  <h2>Publications & Patents</h2>
+  <ul>
+    <li>Enhanced Mask-RCNN for Ship Detection and Segmentation - ICUIS</li>
+    <li>Ship Detection from Satellite Imagery using RetinaNet - ICRTC</li>
+    <li>Patent: Object Detection System for Marine Objects</li>
+  </ul>
 </div>
 
 <div class="section">
@@ -98,8 +141,8 @@ layout: default
     <p class="item-title">BlocPower | Data Scientist</p>
     <div class="item-meta">Brooklyn, NY | May 2024 to Aug 2024</div>
     <ul>
-      <li>Led data validation on 120M+ records in Amazon Redshift (SQL), reduced data inconsistencies by 34% and improved data quality</li>
-      <li>Developed and productionized supervised Machine Learning models (S3, Amazon SageMaker) to predict key building energy characteristics supporting decarbonization efforts</li>
+      <li>Led data validation on 120M+ records in Amazon Redshift (SQL), diminished data inconsistencies by 34% and improved data quality</li>
+      <li>Developed and productionized supervised ML models (S3, Amazon SageMaker) to predict key building energy characteristics supporting decarbonization efforts</li>
       <li>Integrated model lifecycle into a production MLOps pipeline (MLflow) with a CI/CD workflow to automate retraining, validation, and deployment; enabled assessments that helped clients reduce energy waste by up to 80%</li>
       <li>Created performance monitoring reports for cross-functional teams (Engineering, Ops) providing actionable insights into critical business metrics</li>
     </ul>
@@ -109,9 +152,9 @@ layout: default
     <p class="item-title">Columbia Engineering | Machine Learning Research Assistant</p>
     <div class="item-meta">New York, NY | Sep 2023 to Apr 2024</div>
     <ul>
-      <li>Reduced Teaching Assistants’ workload by 50% in high-enrollment courses by answering students’ queries through an LLM assistant</li>
-      <li>Enabled fast, accurate semantic retrieval using a LangChain LLM plus RAG pipeline with embeddings and a vector database over an Excel knowledge base</li>
-      <li>Improved answer reliability with Google PaLM using a strict context-only prompt and an “I don’t know” fallback, deployed via Streamlit with an admin re-index workflow</li>
+      <li>Reduced Teaching Assistants workload by 50% in high-enrollment courses by answering students queries through an LLM assistant</li>
+      <li>Enabled fast, accurate semantic retrieval using a LangChain LLM + RAG pipeline with embeddings and a vector database over an Excel knowledge base</li>
+      <li>Improved answer reliability with Google PaLM using a strict context-only prompt and an I do not know fallback, deployed via Streamlit with an admin re-index workflow</li>
       <li>Derived insights from 100,000 public health records across 30 years by building visualizations, linking demographic and social factors to lifestyle changes, and presenting findings through Tableau dashboards</li>
     </ul>
   </div>
@@ -130,7 +173,7 @@ layout: default
     <div class="item-meta">Chennai, India | Jun 2021 to May 2022</div>
     <ul>
       <li>Enhanced Mask-RCNN on satellite imagery by optimizing Backbone architecture (ResNet) and model hyperparameter tuning</li>
-      <li>Achieved 82% object detection accuracy and published results with Springer</li>
+      <li>Yielded 82% object detection accuracy, demonstrating strength in small object recognition, and published results with Springer</li>
     </ul>
   </div>
 </div>
@@ -142,7 +185,7 @@ layout: default
     <p class="item-title">Columbia University</p>
     <div class="item-meta">New York, NY | Sep 2023 to Feb 2025</div>
     <div class="meta">Master of Science in Data Science</div>
-    <div class="meta">Relevant Coursework: Exploratory Data Analysis and Visualization, Statistics, Machine Learning, Computer Vision, Deep Learning for NLP</div>
+    <div class="meta">Relevant Coursework: Exploratory Data Analysis & Visualization, Statistics, Machine Learning, Computer Vision, DL for NLP</div>
   </div>
 
   <div class="item">
@@ -150,5 +193,17 @@ layout: default
     <div class="item-meta">Chennai, India | Jul 2018 to May 2022</div>
     <div class="meta">Bachelor of Technology in Computer Science and Engineering</div>
     <div class="meta">Relevant Coursework: Data Mining and Analysis, Database Management Systems, Design and Analysis of Algorithms</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Let's Connect</h2>
+  <div class="card">
+    <div class="card-title">Ready to Collaborate</div>
+    <p>Actively seeking full-time Data Science roles where I can apply my expertise in machine learning, NLP, LLMs, and computer vision to tackle complex business problems. With hands-on experience across the climate tech, fintech, and energy sectors, I bring both technical depth and measurable business impact.</p>
+    <div class="actions" style="margin-top:14px;">
+      <a class="btn" href="mailto:ar4636@columbia.edu">Email Me</a>
+      <a class="btn" href="https://www.linkedin.com/in/anusreemondalrakhi/" target="_blank" rel="noopener">Message on LinkedIn</a>
+    </div>
   </div>
 </div>
