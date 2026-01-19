@@ -91,6 +91,23 @@ h2 { margin-top: 28px; margin-bottom: 12px; }
   border-bottom: none;
 }
 
+/* Education spacing rules */
+.item .meta {
+  margin-top: 0;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+/* Space after location and date only when degree details follow (Education) */
+.item-meta + .meta {
+  margin-top: 10px;
+}
+
+/* No extra gap between degree line and relevant coursework line (Education) */
+.item .meta + .meta {
+  margin-top: 0;
+}
+
 .actions {
   margin-top: 14px;
   display: flex;
@@ -217,7 +234,7 @@ h2 { margin-top: 28px; margin-bottom: 12px; }
   margin: 10px 0;
 }
 
-/* Bullet marker color to match Education detail text color */
-.item ul li::marker {
-  color: var(--muted);
+/* Make only the round bullet marker black for all unordered lists */
+.section ul li::marker {
+  color: var(--text);
 }
