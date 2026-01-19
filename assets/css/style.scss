@@ -3,7 +3,6 @@
 
 @import "{{ site.theme }}";
 
-/* Clean, Gamma-like single-page layout */
 :root {
   --bg: #f7f8fb;
   --card: #ffffff;
@@ -35,15 +34,19 @@ h2 {
   margin-bottom: 12px;
 }
 
-/* Hero */
-.hero {
+/* Cards */
+.hero,
+.section {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  padding: 26px;
 }
 
+.hero { padding: 26px; }
+.section { padding: 22px; margin-top: 18px; }
+
+/* Hero layout */
 .hero-grid {
   display: grid;
   grid-template-columns: 140px 1fr;
@@ -74,14 +77,14 @@ h2 {
 
 .role {
   margin-top: 6px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text);
 }
 
 .tagline {
   margin-top: 10px;
   color: var(--muted);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .meta {
@@ -100,7 +103,24 @@ h2 {
   border-bottom-color: rgba(107, 114, 128, 0.60);
 }
 
-/* Buttons (LinkedIn, GitHub, Resume look identical) */
+/* Badge highlight */
+.badge {
+  display: inline-block;
+  padding: 7px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 900;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+
+.badge-strong {
+  background: var(--text);
+  color: #fff;
+  border-color: rgba(17, 24, 39, 0.25);
+}
+
+/* Buttons */
 .actions {
   margin-top: 14px;
   display: flex;
@@ -111,14 +131,13 @@ h2 {
 .btn {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
   padding: 10px 12px;
   border-radius: 12px;
   border: 1px solid var(--border);
   background: #ffffff;
   text-decoration: none;
   color: var(--text);
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .btn:hover {
@@ -126,29 +145,25 @@ h2 {
   box-shadow: 0 10px 22px rgba(17, 24, 39, 0.08);
 }
 
-/* Sections */
-.section {
-  margin-top: 18px;
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  padding: 22px;
-}
-
-/* Highlights */
+/* Grids */
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
 }
 
-@media (max-width: 900px) {
-  .grid-3 {
-    grid-template-columns: 1fr;
-  }
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
 }
 
+@media (max-width: 900px) {
+  .grid-3 { grid-template-columns: 1fr; }
+  .grid-2 { grid-template-columns: 1fr; }
+}
+
+/* Achievement tiles */
 .stat {
   border: 1px solid var(--border);
   border-radius: 14px;
@@ -166,20 +181,38 @@ h2 {
   color: var(--muted);
 }
 
-/* Experience cards */
+/* Content cards inside sections */
+.card {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+  background: #fff;
+}
+
+.card-title {
+  font-weight: 900;
+  margin: 0 0 8px 0;
+}
+
+.card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+/* Experience items */
 .item {
   border: 1px solid var(--border);
   border-radius: 14px;
   padding: 16px;
   margin-top: 12px;
+  background: #fff;
 }
 
-.item:first-of-type {
-  margin-top: 0;
-}
+.item:first-of-type { margin-top: 0; }
 
 .item-title {
-  font-weight: 800;
+  font-weight: 900;
   margin: 0;
   line-height: 1.25;
 }
@@ -187,51 +220,12 @@ h2 {
 .item-meta {
   margin-top: 6px;
   color: var(--muted);
-  font-weight: 600;
+  font-weight: 700;
   white-space: nowrap;
 }
 
 @media (max-width: 720px) {
-  .item-meta {
-    white-space: normal;
-  }
+  .item-meta { white-space: normal; }
 }
 
-.item ul {
-  margin-top: 10px;
-}
-
-/* Skills */
-.skills {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 8px;
-}
-
-.skill-row {
-  display: flex;
-  gap: 10px;
-  align-items: baseline;
-}
-
-.skill-label {
-  min-width: 210px;
-  font-weight: 800;
-}
-
-.skill-value {
-  color: var(--muted);
-}
-
-@media (max-width: 720px) {
-  .skill-row {
-    flex-direction: column;
-    gap: 2px;
-  }
-  .skill-label {
-    min-width: 0;
-  }
-}
-
-/* Remove any leftover theme spacing if it leaks */
-section { padding-top: 0; }
+.item ul { margin-top: 10px; }
