@@ -37,21 +37,21 @@ layout: default
   <h2>Key Achievements</h2>
 
   <div class="grid-3">
-    <div class="stat"><strong>10,000 URLs</strong><span>Built a Web Scraping and Ingestion Pipeline Using BeautifulSoup With Selenium Fallback</span></div>
-    <div class="stat"><strong>35 Languages</strong><span>Benchmarked 6 Translators and Productionized the Best Performing Translator</span></div>
-    <div class="stat"><strong>$46 to $2.30</strong><span>Reduced Run Cost Per 10,000 URLs Using Synonym Aware Precision@3 Evaluation</span></div>
+    <div class="stat"><strong>10,000 URLs</strong><span>Built A Web Scraping And Ingestion Pipeline Using BeautifulSoup With Selenium Fallback</span></div>
+    <div class="stat"><strong>35 Languages</strong><span>Enabled Multilingual Coverage Across 35 Languages For Website Content</span></div>
+    <div class="stat"><strong>$46 to $2.30</strong><span>Reduced Run Cost Per 10,000 URLs From $46 To $2.30 Using Synonym Aware Precision@3 Evaluation</span></div>
 
-    <div class="stat"><strong>4 Weeks to 3 Hours</strong><span>Reduced Multilingual Processing Time Through Translation Benchmarking and Productionization</span></div>
-    <div class="stat"><strong>16 to 20 Minutes</strong><span>Achieved Fast Categorization Runtime With Concurrency For 10,000 URLs</span></div>
+    <div class="stat"><strong>4 Weeks to 3 Hours</strong><span>Reduced End To End Processing Time Through Translation Benchmarking And Productionization</span></div>
+    <div class="stat"><strong>6 Translators</strong><span>Benchmarked 6 Translators And Productionized The Best Performing Translator</span></div>
     <div class="stat"><strong>84% Faster</strong><span>Cut Document Review Turnaround Time By Retrieving Only Top Evidence Per Query</span></div>
 
-    <div class="stat"><strong>120M+ Records</strong><span>Validated Large Scale Data In Amazon Redshift and Improved Data Quality</span></div>
-    <div class="stat"><strong>34% Improvement</strong><span>Reduced Data Inconsistencies Through Validation Rules and QA Checks</span></div>
-    <div class="stat"><strong>Up to 80%</strong><span>Enabled Assessments That Helped Reduce Energy Waste By Up to 80%</span></div>
+    <div class="stat"><strong>120M+ Records</strong><span>Validated Large Scale Data In Amazon Redshift And Improved Data Quality</span></div>
+    <div class="stat"><strong>34% Improvement</strong><span>Reduced Data Inconsistencies Through Validation Rules And QA Checks</span></div>
+    <div class="stat"><strong>Up to 80%</strong><span>Enabled Assessments That Helped Reduce Energy Waste By Up To 80%</span></div>
 
-    <div class="stat"><strong>50% Reduction</strong><span>Reduced Teaching Assistants Workload By Automating Repeated Q and A With an LLM Assistant</span></div>
-    <div class="stat"><strong>100,000 Records</strong><span>Built Tableau Dashboards Across 30 Years of Public Health Data To Support Research Insights</span></div>
-    <div class="stat"><strong>8% Gain</strong><span>Improved CNN Accuracy By 8% and Reduced Training Time By About 15%</span></div>
+    <div class="stat"><strong>50% Reduction</strong><span>Reduced Teaching Assistants Workload By Automating Repeated Q And A With An LLM Assistant</span></div>
+    <div class="stat"><strong>100,000 Records</strong><span>Built Tableau Dashboards Across 30 Years Of Public Health Data To Support Research Insights</span></div>
+    <div class="stat"><strong>8% Gain</strong><span>Improved CNN Accuracy By 8% And Reduced Training Time By About 15%</span></div>
   </div>
 </div>
 
