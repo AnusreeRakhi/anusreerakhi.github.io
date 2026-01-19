@@ -24,11 +24,9 @@ body {
   padding: 44px 18px 64px;
 }
 
-/* Typography */
 h1, h2 { letter-spacing: -0.02em; }
 h2 { margin-top: 28px; margin-bottom: 12px; }
 
-/* Cards */
 .hero,
 .section {
   background: var(--card);
@@ -40,7 +38,6 @@ h2 { margin-top: 28px; margin-bottom: 12px; }
 .hero { padding: 26px; }
 .section { padding: 22px; margin-top: 18px; }
 
-/* Hero layout */
 .hero-grid {
   display: grid;
   grid-template-columns: 140px 1fr;
@@ -84,7 +81,7 @@ h2 { margin-top: 28px; margin-bottom: 12px; }
   line-height: 1.55;
 }
 
-/* Remove underline in hero links (email, phone) */
+/* Remove underline for email and phone */
 .meta a:link,
 .meta a:visited,
 .meta a:hover,
@@ -94,7 +91,6 @@ h2 { margin-top: 28px; margin-bottom: 12px; }
   border-bottom: none;
 }
 
-/* Buttons */
 .actions {
   margin-top: 14px;
   display: flex;
@@ -115,19 +111,20 @@ h2 { margin-top: 28px; margin-bottom: 12px; }
   cursor: pointer;
 }
 
+a.btn:link,
+a.btn:visited,
+a.btn:hover,
+a.btn:active {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: none;
+}
+
 .btn:hover {
   transform: translateY(-1px);
   box-shadow: 0 10px 22px rgba(17, 24, 39, 0.08);
 }
 
-/* Same box style, slightly highlighted */
-.btn-auth {
-  border-color: rgba(17, 24, 39, 0.18);
-  background: rgba(17, 24, 39, 0.03);
-  font-weight: 900;
-}
-
-/* Grids */
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -145,7 +142,6 @@ h2 { margin-top: 28px; margin-bottom: 12px; }
   .grid-2 { grid-template-columns: 1fr; }
 }
 
-/* Achievement tiles */
 .stat {
   border: 1px solid var(--border);
   border-radius: 14px;
@@ -161,7 +157,6 @@ h2 { margin-top: 28px; margin-bottom: 12px; }
 
 .stat span { color: var(--muted); }
 
-/* Content cards inside sections */
 .card {
   border: 1px solid var(--border);
   border-radius: 14px;
@@ -180,7 +175,6 @@ h2 { margin-top: 28px; margin-bottom: 12px; }
   line-height: 1.6;
 }
 
-/* Items */
 .item {
   border: 1px solid var(--border);
   border-radius: 14px;
@@ -208,4 +202,13 @@ h2 { margin-top: 28px; margin-bottom: 12px; }
   .item-meta { white-space: normal; }
 }
 
-.item ul { margin-top: 10px; }
+/* Bullets start from the left edge */
+.item ul {
+  margin: 10px 0 0;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.item li {
+  margin: 6px 0;
+}
