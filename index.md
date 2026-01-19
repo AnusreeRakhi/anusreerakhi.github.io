@@ -61,7 +61,7 @@ layout: default
   <div class="grid-2">
     <div class="card">
       <div class="card-title">Machine Learning & MLOps</div>
-      <p>Scikit-learn, MLflow, AWS SageMaker, Regression, Classification, Automation, Retraining, Monitoring, Production Workflows</p>
+      <p>Scikit-learn, Regression, Classification, Automation, Retraining, Monitoring, Production Workflows</p>
     </div>
 
     <div class="card">
@@ -81,12 +81,12 @@ layout: default
 
     <div class="card">
       <div class="card-title">Cloud & Data</div>
-      <p>AWS (S3, Redshift, SageMaker), GCP, SQL, Pandas, NumPy, Scalable Data Pipelines, ETL</p>
+      <p>AWS (S3, Redshift, SageMaker, MLflow), GCP, SQL, Pandas, NumPy, Scalable Data Pipelines, ETL</p>
     </div>
 
     <div class="card">
       <div class="card-title">Analytics & Visualization</div>
-      <p>Tableau, Power BI, Matplotlib, Seaborn, Ggplot2, Statistical Modeling, Hypothesis Testing, A and B Testing, Experimental Design</p>
+      <p>Tableau, Power BI, Matplotlib, Seaborn, Ggplot2, Statistical Modeling, Hypothesis Testing, A/B Testing, Experimental Design</p>
     </div>
   </div>
 </div>
