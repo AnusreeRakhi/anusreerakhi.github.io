@@ -19,7 +19,6 @@ layout: default
       </div>
 
       <div class="actions">
-        <a class="btn" href="https://www.linkedin.com/in/anusreemondalrakhi/" target="_blank" rel="noopener">LinkedIn</a>
         <a class="btn" href="https://github.com/AnusreeRakhi" target="_blank" rel="noopener">GitHub</a>
         <a class="btn" href="{{ '/assets/Resume.pdf' | relative_url }}" target="_blank" rel="noopener">Resume</a>
         <a class="btn" href="#" onclick="return false;" aria-label="Work Authorization Legal Permanent Resident">Work Authorization: Legal Permanent Resident</a>
@@ -189,7 +188,6 @@ layout: default
     <p>Actively seeking full time Data Science roles where I can apply Machine Learning, NLP, LLMs, and Computer Vision to deliver measurable business impact, I bring hands on experience across Climate Tech, FinTech, and Energy, and I enjoy partnering with cross functional teams to move from prototype to production</p>
     <div class="actions" style="margin-top:14px;">
       <a class="btn" href="mailto:ar4636@columbia.edu?subject=Hello%20Anusree%20Mondal%20Rakhi">Email Me</a>
-      <a class="btn" href="https://www.linkedin.com/in/anusreemondalrakhi/" target="_blank" rel="noopener">Message on LinkedIn</a>
     </div>
   </div>
 </div>
